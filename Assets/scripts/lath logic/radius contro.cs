@@ -98,21 +98,31 @@ public class RadiusControl : MonoBehaviour
         if (effect != null && effect.transform.childCount > 0)
         {
             Transform childTransform = effect.transform.GetChild(0);
+            Transform childTransformTwo = effect.transform.GetChild(1);
             GameObject childEffect = childTransform.gameObject;
+            GameObject childEffectTwo = childTransformTwo.gameObject;
 
             bool wasInitiallyInactive = !childEffect.activeSelf;
+            bool wasInitiallyInactiveTwo = !childEffectTwo.activeSelf;
             childEffect.SetActive(true); // Activate to allow instantiation
+            childEffectTwo.SetActive(true); // Activate to allow instantiation
 
             for (int i = 0; i < 1; i++) // Adjust number of duplicates
             {
                 GameObject spawned = Instantiate(childEffect, transform.position, Quaternion.identity);
-                spawned.transform.localScale = new Vector3(0.260006577f, 0.260006577f, 0.0660208687f);
+                GameObject spawnedTwo = Instantiate(childEffectTwo, transform.position, Quaternion.identity);
+                spawnedTwo.transform.localScale = new Vector3(0.260006577f, 0.260006577f, 0.0660208687f);
+                spawned.transform.localScale = new Vector3(0.0260006577f, 0.0260006577f, 0.00660208687f);
                 yield return new WaitForSeconds(0.5f);
             }
 
             if (wasInitiallyInactive)
             {
                 childEffect.SetActive(false); // Restore original state
+            }
+            if (wasInitiallyInactiveTwo)
+            {
+                childEffectTwo.SetActive(false); // Restore original state
             }
         }
     }
