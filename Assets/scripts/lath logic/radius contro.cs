@@ -83,8 +83,6 @@ public class RadiusControl : MonoBehaviour
 
         isTurning = false;
     }
-
-
     void PerformTurning()
     {
         transform.localScale = new Vector3(transform.localScale.x * turnStep, originalOuterScale.y, transform.localScale.z * turnStep);
