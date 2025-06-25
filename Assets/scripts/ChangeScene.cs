@@ -29,7 +29,7 @@ public class ChangeScene : MonoBehaviour
     }
     public void SceneChangeToExplore()
     {
-        SceneManager.LoadScene("explore");
+        SceneManager.LoadScene("explore hindi");
     }
 
 }
