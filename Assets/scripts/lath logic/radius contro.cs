@@ -95,34 +95,45 @@ public class RadiusControl : MonoBehaviour
 
         if (effect != null && effect.transform.childCount > 0)
         {
-            Transform childTransform = effect.transform.GetChild(0);
-            Transform childTransformTwo = effect.transform.GetChild(1);
-            GameObject childEffect = childTransform.gameObject;
-            GameObject childEffectTwo = childTransformTwo.gameObject;
+            bool wasInitiallyInactive = false;
+            bool wasInitiallyInactiveTwo = false;
 
-            bool wasInitiallyInactive = !childEffect.activeSelf;
-            bool wasInitiallyInactiveTwo = !childEffectTwo.activeSelf;
+            GameObject childEffect = null;
+            GameObject childEffectTwo = null;
+
+            Transform childTransform = effect.transform.GetChild(0);
+            childEffect = childTransform.gameObject;
+            wasInitiallyInactive = !childEffect.activeSelf;
             childEffect.SetActive(true); // Activate to allow instantiation
-            childEffectTwo.SetActive(true); // Activate to allow instantiation
+
+            if (effect.transform.childCount > 1)
+            {
+                Transform childTransformTwo = effect.transform.GetChild(1);
+                childEffectTwo = childTransformTwo.gameObject;
+                wasInitiallyInactiveTwo = !childEffectTwo.activeSelf;
+                childEffectTwo.SetActive(true); // Activate to allow instantiation
+            }
 
             for (int i = 0; i < 1; i++) // Adjust number of duplicates
             {
                 GameObject spawned = Instantiate(childEffect, transform.position, Quaternion.identity);
-                GameObject spawnedTwo = Instantiate(childEffectTwo, transform.position, Quaternion.identity);
-                spawnedTwo.transform.localScale = new Vector3(0.260006577f, 0.260006577f, 0.0660208687f);
-                spawned.transform.localScale = new Vector3(0.0260006577f, 0.0260006577f, 0.00660208687f);
+                spawned.transform.localScale = new Vector3(0.260006577f, 0.260006577f, 0.0660208687f);
+
+                if (childEffectTwo != null)
+                {
+                    GameObject spawnedTwo = Instantiate(childEffectTwo, transform.position, Quaternion.identity);
+                    spawnedTwo.transform.localScale = new Vector3(0.0260006577f, 0.0260006577f, 0.00660208687f);
+                }
+
                 yield return new WaitForSeconds(0.5f);
             }
 
             if (wasInitiallyInactive)
-            {
-                childEffect.SetActive(false); // Restore original state
-            }
-            if (wasInitiallyInactiveTwo)
-            {
-                childEffectTwo.SetActive(false); // Restore original state
-            }
+                childEffect.SetActive(false);
+            if (wasInitiallyInactiveTwo && childEffectTwo != null)
+                childEffectTwo.SetActive(false);
         }
+
     }
 
 

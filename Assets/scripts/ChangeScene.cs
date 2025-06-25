@@ -27,5 +27,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Welcome");
     }
+    public void SceneChangeToExplore()
+    {
+        SceneManager.LoadScene("explore");
+    }
 
 }
