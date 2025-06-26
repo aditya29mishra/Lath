@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: d70cbb19621fa484186d6169b2584b46
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: lathe machine disassembly animation 2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCube2
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0, y: 0.50318956, z: 0.07421586}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.9328527, y: 0.15075442, z: 1.9109428}
+    - name: polySurface1
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.029619776, y: 0.6225053, z: 0.01642474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.026888216}
+    - name: pCube7
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.55046, y: 0.82836705, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0787501, y: 1.696729, z: 1.0787501}
+    - name: pCylinder6
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.38254574, y: 0.956782, z: -0.000000015756553}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube8
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.7925909, y: 0.8270145, z: 0.061137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.50906396, y: 1.696729, z: 1.4748113}
+    - name: pCube9
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.55046, y: 0.6491351, z: 0.15169196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0528775, y: 0.55096185, z: 0.92773366}
+    - name: group1
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.46507543, y: 0.9510705, z: 0.20592047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: polySurface2
+      parentName: group1
+      position: {x: 0.00000011919359, y: -1.0550493, z: 0.000000029806046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder9
+      parentName: group1
+      position: {x: 0.0000011627196, y: 0.8197522, z: 0.36765835}
+      rotation: {x: 0.7071068, y: -4.3297806e-17, z: 0.7071068, w: 4.3297806e-17}
+      scale: {x: 0.033903453, y: 0.12311305, z: 0.033903453}
+    - name: pCylinder86
+      parentName: group1
+      position: {x: -12.457665, y: 2.524176, z: -2.5612555}
+      rotation: {x: 0.6266691, y: 0.32754517, z: 0.6266691, w: -0.32754517}
+      scale: {x: 0.033903453, y: 0.12311305, z: 0.033903453}
+    - name: group2
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.56195813, y: 0.91412836, z: 0.20592047}
+      rotation: {x: 0, y: -0, z: -0.13197903, w: 0.99125254}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: polySurface2
+      parentName: group2
+      position: {x: 0.00000011919359, y: 0.070948176, z: 0.000000029806046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder9
+      parentName: group2
+      position: {x: 0.0000011627196, y: 1.9457508, z: 0.36765835}
+      rotation: {x: 0.7071068, y: -4.3297806e-17, z: 0.7071068, w: 4.3297806e-17}
+      scale: {x: 0.033903453, y: 0.12311305, z: 0.033903453}
+    - name: group3
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.640249, y: 0.91412836, z: 0.20592047}
+      rotation: {x: 0, y: 0, z: 0.9914449, w: 0.13052619}
+      scale: {x: 0.023240088, y: 0.023240088, z: 0.023240088}
+    - name: polySurface2
+      parentName: group3
+      position: {x: 0.00000011919355, y: 0.070948176, z: 0.000000029806046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder9
+      parentName: group3
+      position: {x: -0, y: 1.9457508, z: 0.36765835}
+      rotation: {x: 0.7071068, y: -4.3297806e-17, z: 0.7071068, w: 4.3297806e-17}
+      scale: {x: 0.033903453, y: 0.12311305, z: 0.033903453}
+    - name: group4
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.5964245, y: 0.33162105, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.037000313, y: 0.037000313, z: 0.037000313}
+    - name: pCube4
+      parentName: group4
+      position: {x: -0.051532898, y: -0.19598453, z: 3.5489752}
+      rotation: {x: -0.015254451, y: 0, z: -0, w: 0.99988365}
+      scale: {x: 16.510456, y: 27.715572, z: 0.88372487}
+    - name: pCube3
+      parentName: group4
+      position: {x: -0.0000011627196, y: -1.6338733, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 23.603302, y: 38.374268, z: 24.991732}
+    - name: pCube12
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.29984066, y: 0.76975465, z: 0.17153208}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.2658756, y: 0.2877746, z: 0.11397404}
+    - name: pCube13
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.49202773, y: 1.1450468, z: -0.0184104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.26318806, y: 0.47251022, z: 0.27693522}
+    - name: pasted__Circle.004
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.5053392, y: 1.232057, z: -0.0006651211}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube14
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.50370145, y: 1.1506736, z: 0.003643081}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.26318806, y: 0.47251022, z: 0.27693522}
+    - name: pCylinder10
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.50520504, y: 1.2268182, z: -0.0010849179}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 0.00044109943, y: 0.0006471489, z: 0.00044109943}
+    - name: group5
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.4295481, y: 0.70818794, z: 0.31390956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.015154068, y: 0.015154068, z: 0.015154068}
+    - name: pCylinder16
+      parentName: group5
+      position: {x: 0.6081239, y: -4.338326, z: -0.27508494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.6069554, y: 0.6069554, z: 0.6069554}
+    - name: pCylinder17
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.65229493, y: 0.6836432, z: 0.30582035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.03578656, y: 0.03578656, z: 0.03578656}
+    - name: pCylinder18
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.65229493, y: 0.6116478, z: 0.30582035}
+      rotation: {x: 0, y: -0, z: -0.3786236, w: 0.92555076}
+      scale: {x: 0.03578656, y: 0.03578656, z: 0.03578656}
+    - name: pasted__Circle.005
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.5338165, y: 0.60964566, z: 0.30256686}
+      rotation: {x: 0.54781085, y: 0.4471055, z: 0.4471055, w: 0.54781085}
+      scale: {x: 0.05469551, y: 0.05469551, z: 0.05469551}
+    - name: polySurface253
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.5972361, y: 0.36991203, z: 0.12478084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.045946565, y: 0.045946565, z: 0.07695275}
+    - name: group
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.05788056, y: 0.69110966, z: 0.23313092}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8628827, y: 0.8628827, z: 0.8628827}
+    - name: pasted__a1
+      parentName: group
+      position: {x: 0.17345567, y: 0.09732966, z: -1.6265035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0025701604, y: 0.0025701604, z: 0.0025701604}
+    - name: group6_pasted__a1_pasted__Circle.040
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.043785315, y: 0.69110966, z: 0.2331309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.024042748, y: 0.024042748, z: 0.024042748}
+    - name: group6_pasted__a1_pasted__Circle.041
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.369915, y: 0.69110966, z: 0.2331309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.024042748, y: 0.024042748, z: 0.024042748}
+    - name: polySurface254
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.5331303, y: 0.5233634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder23
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.19362512, y: 0.7473843, z: 0.2974685}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0026903183, y: 0.0008268974, z: 0.0026903183}
+    - name: group7
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.09313904, y: 0.011984325, z: -0.020014314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pasted__a1
+      parentName: group7
+      position: {x: 0.17345567, y: 0.09732966, z: -1.6265035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0025701604, y: 0.0025701604, z: 0.0025701604}
+    - name: pCylinder25
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.19368118, y: 0.7460115, z: 0.30943912}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.0012526491, y: 0.00045568382, z: 0.0012526491}
+    - name: pPipe2
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.078084715, y: 0.639011, z: 0.28068084}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.0024627526, y: 0.00091282756, z: 0.0024627526}
+    - name: pCylinder26
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.049883243, y: 0.79604095, z: 0.28538874}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0026903183, y: 0.0014421858, z: 0.0026903183}
+    - name: pCylinder27
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.19386058, y: 0.7465144, z: 0.3006284}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0013622936, y: 0.0007302783, z: 0.0013622936}
+    - name: pCylinder28
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.12794308, y: 0.6714574, z: 0.24913761}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0028011217, y: 0.0015731915, z: 0.0028011217}
+    - name: pCylinder29
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.19362512, y: 0.7473843, z: 0.2974685}
+      rotation: {x: 0.60397935, y: -0.36770767, z: -0.36770767, w: 0.60397935}
+      scale: {x: 0.00157145, y: 0.0004830016, z: 0.00157145}
+    - name: pCylinder31
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.25375783, y: 0.8030742, z: 0.33741227}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0011083385, y: 0.005401978, z: 0.0011083385}
+    - name: pCylinder32
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.7743324, y: 0.69146645, z: 0.23343953}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 0.0026903183, y: 0.002948034, z: 0.0026903183}
+    - name: pCylinder33
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.7898008, y: 0.7398987, z: 0.21361256}
+      rotation: {x: 0.6959187, y: 0.12528862, z: 0.12528862, w: 0.6959187}
+      scale: {x: 0.000843922, y: 0.00030699867, z: 0.000843922}
+    - name: pCylinder34
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.76120836, y: 0.7398987, z: 0.21361256}
+      rotation: {x: 0.69879127, y: -0.10812379, z: -0.10812379, w: 0.69879127}
+      scale: {x: 0.000843922, y: 0.00030699867, z: 0.000843922}
+    - name: pCylinder35
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.77426857, y: 0.72806126, z: 0.20966092}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.00023720697, y: 0.00028981364, z: 0.00023720697}
+    - name: pCylinder38
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.7746586, y: 0.7183827, z: 0.23335418}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube29
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.6311953, y: 0.9136942, z: 0.065025024}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder40
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.7949266, y: 0.9753897, z: 0.064772725}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0031443627, y: 0.0006715346, z: 0.0031443627}
+    - name: pCylinder41
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.80238605, y: 0.9753897, z: 0.064772725}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0018910782, y: 0.0020485572, z: 0.0018910782}
+    - name: group8
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.8770211, y: 1.0118128, z: -0.0004782593}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.03032173, y: 0.03032173, z: 0.03032173}
+    - name: pPipe3
+      parentName: group8
+      position: {x: -0, y: 0.0000023254393, z: -0.50011116}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.28906122, y: 0.096319824, z: 0.28906122}
+    - name: group9
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.8686184, y: 1.0089123, z: 0.0012065963}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder47
+      parentName: group9
+      position: {x: 0.44543743, y: -0.9148856, z: 1.887182}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder46
+      parentName: group9
+      position: {x: -0.56173545, y: 0.59439856, z: 0.2495579}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.031221678, y: 0.15217267, z: 0.031221678}
+    - name: pCylinder43
+      parentName: group9
+      position: {x: 0.22626059, y: -1.0130404, z: 1.9419053}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.03528688, y: 0.012836525, z: 0.03528688}
+    - name: pCylinder45
+      parentName: group9
+      position: {x: 0.5634702, y: -0.974373, z: 1.9434838}
+      rotation: {x: 0.6870865, y: -0.6870865, z: 0.1670694, w: 0.1670694}
+      scale: {x: 0.044267442, y: 0.013606061, z: 0.044267442}
+    - name: pCylinder44
+      parentName: group9
+      position: {x: 0.47445706, y: -0.99887615, z: 1.9368521}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.038375553, y: 0.020571798, z: 0.038375553}
+    - name: pCylinder42
+      parentName: group9
+      position: {x: 0.5634702, y: -0.974373, z: 1.9434838}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.07578574, y: 0.02329354, z: 0.07578574}
+    - name: pCylinder51
+      parentName: group9
+      position: {x: 0.44861212, y: -0.9645271, z: 1.9017594}
+      rotation: {x: -2.9534563e-17, y: -0.48233604, z: 0.8759863, w: 5.363869e-17}
+      scale: {x: 0.041337788, y: 0.14036557, z: 0.041337788}
+    - name: pCylinder50
+      parentName: group9
+      position: {x: 0.44861212, y: -0.9645271, z: 1.9017594}
+      rotation: {x: 3.1152284e-17, y: 0.5087554, z: 0.8609112, w: 5.2715608e-17}
+      scale: {x: 0.041337788, y: 0.14036557, z: 0.041337788}
+    - name: pCylinder49
+      parentName: group9
+      position: {x: 0.44861212, y: -0.9645271, z: 1.9017594}
+      rotation: {x: 6.123234e-17, y: 1, z: 6.123234e-17, w: 3.7493994e-33}
+      scale: {x: 0.041337788, y: 0.14036557, z: 0.041337788}
+    - name: pCylinder60
+      parentName: group9
+      position: {x: 28.292782, y: -9.558163, z: 8.721728}
+      rotation: {x: 0.69759893, y: 0.69759893, z: 0.115567036, w: 0.115567036}
+      scale: {x: 0.030194636, y: 0.12179226, z: 0.030194636}
+    - name: pCube30
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.29984066, y: 0.76975465, z: -0.040562507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.2658756, y: 0.2877746, z: 0.11397404}
+    - name: pCube31
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.68986946, y: 1.0177958, z: 0.044509783}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.6834529, y: 0.032349233, z: 0.35017002}
+    - name: pCylinder55
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.47172225, y: 0.9753897, z: 0.064772725}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0031443627, y: 0.0006715346, z: 0.0031443627}
+    - name: pCylinder56
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.45618132, y: 0.9753897, z: 0.064772725}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0018011738, y: 0.0016943623, z: 0.0018011738}
+    - name: pCylinder57
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.4269249, y: 0.9753897, z: 0.064772725}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0014862781, y: 0.004492294, z: 0.0014862781}
+    - name: group10
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.53849596, y: 1.0743645, z: -0.0000000016467913}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder54
+      parentName: group10
+      position: {x: 0.25485536, y: -1.2648622, z: 1.9385364}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 0.03453572, y: 0.074634396, z: 0.03453572}
+    - name: pCylinder53
+      parentName: group10
+      position: {x: 0.007818127, y: -0.30315822, z: 1.9385364}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.01114047, y: 0.16635925, z: 0.01114047}
+    - name: pCylinder83
+      parentName: group10
+      position: {x: 18.470263, y: 0.41910228, z: 3.0711868}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.01114047, y: 0.16635925, z: 0.01114047}
+    - name: pCylinder84
+      parentName: group10
+      position: {x: 18.7173, y: -1.2911234, z: 3.0711868}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 0.03453572, y: 0.119254015, z: 0.03453572}
+    - name: group11
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.71295375, y: 0.8563316, z: 0.11257133}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 0.015969066, y: 0.015969066, z: 0.015969066}
+    - name: pCylinder54
+      parentName: group11
+      position: {x: 0.25485536, y: 3.7211492, z: 2.0612645}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 0.03453572, y: 0.074634396, z: 0.03453572}
+    - name: pCylinder53
+      parentName: group11
+      position: {x: 0.007818127, y: 4.682853, z: 2.0612645}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.01114047, y: 0.16635925, z: 0.01114047}
+    - name: pCube34
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.04630525, y: 0.8501115, z: 0.14618683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.46055186, y: 0.098988354, z: 0.92773366}
+    - name: group12
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.7564395, y: 0.8637672, z: 0.38376945}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.009654278, y: 0.009654278, z: 0.009654278}
+    - name: polySurface255
+      parentName: group12
+      position: {x: -20.144434, y: -0.18928854, z: -28.103096}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 26.206196, y: 26.206196, z: 26.206196}
+    - name: polySurface256
+      parentName: group12
+      position: {x: -9.054852, y: -3.7931519, z: -24.956486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3683385, y: 0.3683385, z: 0.3683385}
+    - name: polySurface257
+      parentName: group12
+      position: {x: -18.150547, y: -7.164272, z: -18.740234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.7475846, y: 0.7475846, z: 0.7475846}
+    - name: polySurface258
+      parentName: group12
+      position: {x: -5.0824637, y: -5.4711204, z: -33.690266}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 16.582466, y: 16.582466, z: 16.582466}
+    - name: polySurface259
+      parentName: group12
+      position: {x: -15.419839, y: -0.33575365, z: -27.812805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5104634, y: 0.5104634, z: 0.5104634}
+    - name: pCylinder58
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.7711469, y: 0.6879453, z: 0.20241919}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0027549462, y: 0.014000041, z: 0.0027549462}
+    - name: pCylinder59
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.73246855, y: 0.77585495, z: 0.14242147}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0013031783, y: 0.0066224704, z: 0.0013031783}
+    - name: pCylinder61
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.059112195, y: 0.6956106, z: 0.28538874}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0032291105, y: 0.0016735336, z: 0.0032291105}
+    - name: pCylinder62
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.1956238, y: 0.749496, z: 0.30167368}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: group13
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.052252766, y: 0.8109738, z: 0.31747112}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.024460558, y: 0.024460558, z: 0.024460558}
+    - name: pCylinder68
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.19376537, y: 0.74906826, z: 0.2529372}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0026903183, y: 0.0014421858, z: 0.0026903183}
+    - name: polySurface260
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.07823257, y: 0.6391182, z: 0.26116726}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.045946565, y: 0.045946565, z: 0.046322796}
+    - name: pCylinder75
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.07783134, y: 0.6386653, z: 0.28120425}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.0012526491, y: 0.00045568382, z: 0.0012526491}
+    - name: pCylinder76
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.05841618, y: 0.6955028, z: 0.24879922}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0036154017, y: 0.0019380911, z: 0.0036154017}
+    - name: pCylinder77
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.053903677, y: 0.7173339, z: 0.26395917}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0026903183, y: 0.0010665248, z: 0.0026903183}
+    - name: pCylinder78
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.05454231, y: 0.7166838, z: 0.2803669}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0020569619, y: 0.0005007298, z: 0.0020569619}
+    - name: pCylinder79
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.05454231, y: 0.7166838, z: 0.2777271}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.00031896774, y: 0.0008666595, z: 0.00031896774}
+    - name: pCylinder82
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.032663386, y: 0.74497825, z: 0.28612676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pPipe4
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.078084715, y: 0.639011, z: 0.26211235}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.0038646928, y: 0.0014324612, z: 0.0038646928}
+    - name: pCube35
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.04630525, y: 0.87403035, z: 0.14618683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.46055186, y: 0.098988354, z: 0.8095738}
+    - name: group14
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.052971113, y: 0.8488855, z: 0.33499902}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder74
+      parentName: group14
+      position: {x: 0.012129662, y: -0.04324576, z: -1.416208}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder67
+      parentName: group14
+      position: {x: 0.018173598, y: -0.067756325, z: -0.059992846}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.030957578, y: 0.016595282, z: 0.030957578}
+    - name: pCylinder69
+      parentName: group14
+      position: {x: 0.012129782, y: -0.043246195, z: -0.39693853}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.06297456, y: 0.033758473, z: 0.06297456}
+    - name: pCylinder65
+      parentName: group14
+      position: {x: 0.023523416, y: -0.04799009, z: -0.13180009}
+      rotation: {x: 0.6039794, y: -0.3677076, z: -0.3677076, w: 0.6039794}
+      scale: {x: 0.03571057, y: 0.010976017, z: 0.03571057}
+    - name: pCylinder66
+      parentName: group14
+      position: {x: 0.022249948, y: -0.079183534, z: 0.14022748}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.028465947, y: 0.010355232, z: 0.028465947}
+    - name: pCylinder63
+      parentName: group14
+      position: {x: -0.021895755, y: 0, z: -0.036238484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.7455578, y: 0.7455578, z: 0.7455578}
+    - name: pCylinder70
+      parentName: group14
+      position: {x: 0.023523416, y: -0.04799009, z: -0.13180009}
+      rotation: {x: 0.09933772, y: 0.70009434, z: 0.70009434, w: 0.09933772}
+      scale: {x: 0.03571057, y: 0.010976017, z: 0.03571057}
+    - name: pCylinder71
+      parentName: group14
+      position: {x: 0.023523416, y: -0.04799009, z: -0.13180009}
+      rotation: {x: 0.6481728, y: 0.28261644, z: 0.28261644, w: 0.6481728}
+      scale: {x: 0.03571057, y: 0.010976017, z: 0.03571057}
+    - name: pCylinder64
+      parentName: group14
+      position: {x: -1.3429676, y: 1.2175395, z: 0.7759049}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.025186546, y: 0.12275778, z: 0.025186546}
+    - name: pCube36
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.04630525, y: 0.894046, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.42453596, y: 0.06312096, z: 0.40799317}
+    - name: pCube37
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.0896723, y: 0.9065349, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.13774426, y: 0.031020036, z: 0.40799317}
+    - name: pCube38
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.0139721455, y: 0.9065349, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3519527, y: 0.031020036, z: 0.40799317}
+    - name: pCube39
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.020665215, y: 0.9228325, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.59193337, y: 0.06312096, z: 0.40799317}
+    - name: pCube40
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.06428568, y: 0.9392944, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.2938679, y: 0.04477237, z: 0.40799317}
+    - name: pCube41
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.06428568, y: 0.9629631, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.14500359, y: 0.14229447, z: 0.16745773}
+    - name: pCube42
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.06428568, y: 0.99197936, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.22054197, y: 0.06601317, z: 0.25469333}
+    - name: pCylinder85
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.056359354, y: 1.020157, z: 0.1218898}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -3.7493994e-33}
+      scale: {x: 0.001118463, y: 0.0025903925, z: 0.001118463}
+    - name: polySurface261
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.051949456, y: 0.69981647, z: 0.24929684}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder88
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.098301806, y: 0.91996086, z: 0.1815558}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.00055843435, y: 0.0002031451, z: 0.00055843435}
+    - name: pCylinder89
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.04467901, y: 0.91996086, z: 0.1815558}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.00055843435, y: 0.0002031451, z: 0.00055843435}
+    - name: pCylinder90
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.007453657, y: 0.91996086, z: 0.1815558}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.00055843435, y: 0.0002031451, z: 0.00055843435}
+    - name: pCylinder91
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.05609107, y: 0.91996086, z: 0.1815558}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.00055843435, y: 0.0002031451, z: 0.00055843435}
+    - name: pCylinder92
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.054092202, y: 0.9103815, z: 0.16973668}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -3.7493994e-33}
+      scale: {x: 0.000921302, y: 0.00041174836, z: 0.000921302}
+    - name: group15
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.20863783, y: 1.0089123, z: 0.0012065963}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: group16
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.09884859, y: 0.9362784, z: 0.12127717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.014179785, y: 0.014179785, z: 0.014179785}
+    - name: pCylinder46
+      parentName: group16
+      position: {x: -0.24831505, y: -1.0509404, z: -0.022227548}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.031221678, y: 0.15217267, z: 0.031221678}
+    - name: pCylinder47
+      parentName: group16
+      position: {x: 0.090117745, y: -0.9730041, z: -0.08352077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder42
+      parentName: group16
+      position: {x: 0.20815124, y: -1.0324928, z: -0.02721883}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.07578574, y: 0.02329354, z: 0.07578574}
+    - name: pCylinder93
+      parentName: group16
+      position: {x: 1.8908106, y: -1.0798875, z: -0.033207126}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.08336784, y: 0.05070148, z: 0.08336784}
+    - name: pCylinder94
+      parentName: group16
+      position: {x: 1.5973498, y: -1.0798875, z: -0.033207126}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.05764006, y: 0.0498588, z: 0.05764006}
+    - name: pCylinder43
+      parentName: group16
+      position: {x: -0.12905897, y: -1.0711601, z: -0.028797368}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.03528688, y: 0.012836525, z: 0.03528688}
+    - name: pCylinder44
+      parentName: group16
+      position: {x: 0.11913807, y: -1.0569959, z: -0.033850547}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.038375553, y: 0.020571798, z: 0.038375553}
+    - name: pCylinder45
+      parentName: group16
+      position: {x: 0.20815124, y: -1.0324928, z: -0.02721883}
+      rotation: {x: 0.6870865, y: -0.6870865, z: 0.1670694, w: 0.1670694}
+      scale: {x: 0.044267442, y: 0.013606061, z: 0.044267442}
+    - name: pCylinder95
+      parentName: group16
+      position: {x: -0.12596032, y: -0.7647207, z: -0.13495062}
+      rotation: {x: -0.70227057, y: 0.7098139, z: -0.052181594, w: -0.01604732}
+      scale: {x: 0.031221678, y: 0.15217267, z: 0.031221678}
+    - name: left
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 304.83047, y: 0, z: -4.243615e-30}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube44
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.9203552, y: 0.22663464, z: -0.0031784212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0528773, y: 0.30328348, z: 0.5629624}
+    - name: polySurface262
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.72087777, y: 0.27116725, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder97
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.087785915, y: 1.0016247, z: 0.14662585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube46
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.3694211, y: 0.66042614, z: 0.23629174}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: group6_pasted__a1_pasted__Circle.042
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.043785315, y: 0.69110966, z: -0.10346095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.024042748, y: 0.024042748, z: 0.024042748}
+    - name: group6_pasted__a1_pasted__Circle.043
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.369915, y: 0.69110966, z: -0.10346095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.024042748, y: 0.024042748, z: 0.024042748}
+    - name: pCylinder98
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.77465856, y: 0.7177321, z: -0.10407251}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder99
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.77433234, y: 0.7114418, z: -0.09439555}
+      rotation: {x: -8.659561e-17, y: -8.659561e-17, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.0026903183, y: 0.002948034, z: 0.0026903183}
+    - name: pCylinder100
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.7904031, y: 0.73967457, z: -0.082730316}
+      rotation: {x: -0.6959187, y: -0.12528862, z: 0.12528862, w: 0.6959187}
+      scale: {x: 0.000843922, y: 0.00030699867, z: 0.000843922}
+    - name: pCylinder101
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.761821, y: 0.74009293, z: -0.082730316}
+      rotation: {x: -0.69879127, y: 0.10812379, z: -0.10812379, w: 0.69879127}
+      scale: {x: 0.000843922, y: 0.00030699867, z: 0.000843922}
+    - name: polySurface267
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.3694211, y: 0.6251229, z: -0.09555427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: polySurface271
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.38924053, y: 0.6946931, z: -0.09853028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube47
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.1700602, y: 0.8668327, z: 0.097329326}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.6834529, y: 0.019651147, z: 0.35017002}
+    - name: pCube48
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.14906253, y: 0.7250159, z: 0.24949838}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.08535642, y: 0.026890561, z: 0.09857405}
+    - name: pCube49
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.15131667, y: 0.7212203, z: 0.24535073}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1133206, y: 0.0054796133, z: 0.12528814}
+    - name: pCylinder102
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.15744372, y: 0.72778064, z: 0.25034267}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.057760812, y: 0.057760812, z: 0.057760812}
+    - name: pCylinder103
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.15892169, y: 0.70936084, z: 0.25170946}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 0.0012666954, y: 0.0010607361, z: 0.0012666954}
+    - name: polySurface272
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.15807988, y: 0.68433183, z: 0.25150123}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.001357442, y: 0.012289166, z: 0.001357442}
+    - name: pCylinder104
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.041488163, y: 1.0016247, z: 0.14662585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube50
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.06428568, y: 0.9620488, z: 0.11749522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.22054197, y: 0.06601317, z: 0.25469333}
+    - name: pCylinder105
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.087785915, y: 1.0016247, z: 0.08660829}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCylinder106
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.04306161, y: 1.0016247, z: 0.08660829}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pCube51
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.2070125, y: 0.8307571, z: 0.01719012}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.4605518, y: 0.098988354, z: 0.92773366}
+    - name: pCube52
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.07054044, y: 0.8307571, z: 0.19045696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: polySurface273
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.7470302, y: 0.75250363, z: 0.15422915}
+      rotation: {x: 0.37201595, y: -0, z: -0, w: 0.92822635}
+      scale: {x: 0.020155033, y: 0.012170987, z: 0.020155033}
+    - name: pCylinder107
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.49349147, y: 0.6649092, z: 0.30666128}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.001114616, y: 0.00042095443, z: 0.001114616}
+    - name: pCylinder108
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.49349147, y: 0.6649092, z: 0.31081513}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.0008085888, y: 0.00030537785, z: 0.0008085888}
+    - name: pCube55
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.063481435, y: 0.9768633, z: 0.084213465}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 0.36718613, y: 0.026160264, z: 0.052592553}
+    - name: group17
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.3013344, y: 0.9581622, z: 0.0025698869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.0328084, y: 0.0328084, z: 0.0328084}
+    - name: pasted__group3
+      parentName: group17
+      position: {x: -1.4235549, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.08328933, y: 0.08328933, z: 0.08328933}
+    - name: pasted__Thread1
+      parentName: pasted__group3
+      position: {x: 5.9435997, y: -15.107635, z: 3.0610409}
+      rotation: {x: -0.000000045105867, y: -0.61258674, z: 0.79040337, w: -0.000000034958422}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ThdSchPat
+      parentName: pasted__group3
+      position: {x: -17.038326, y: -9.463496, z: 30.035294}
+      rotation: {x: -0.000000025728344, y: -0.3024928, z: 0.9531517, w: -0.000000008165163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer2
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: 15.986511, z: 21.020529}
+      rotation: {x: -0.12573525, y: 0.000000049745687, z: -0.0000002947984, w: 0.9920638}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ThdSchPat1
+      parentName: pasted__group3
+      position: {x: -17.038326, y: -21.608568, z: -21.660946}
+      rotation: {x: 0.000000037953505, y: 0.49601328, z: 0.868315, w: 0.00000013167184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Extrude21
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: -7.8954525, z: -7.680247}
+      rotation: {x: -0.56305844, y: 0.4277444, z: 0.5630585, w: -0.42774415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ThdSchPat2
+      parentName: pasted__group3
+      position: {x: -17.038326, y: 31.175463, z: -8.862416}
+      rotation: {x: -0.000000058741005, y: -0.225732, z: 0.97418946, w: -0.000000013611033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer1
+      parentName: pasted__group3
+      position: {x: -0.60959995, y: 15.174431, z: 15.839799}
+      rotation: {x: 0.34042203, y: 0.43909255, z: 0.18436816, w: 0.8107521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer7
+      parentName: pasted__group3
+      position: {x: -0.60959995, y: 5.2306943, z: -22.758543}
+      rotation: {x: -0.54387313, y: 0.34860206, z: -0.2648258, w: 0.71592313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer8
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: -26.596458, z: 9.168304}
+      rotation: {x: 0.796285, y: -0.00000017994482, z: -0.00000013670048, w: 0.60492176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer9
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: 20.338488, z: 16.75185}
+      rotation: {x: -0.12573525, y: 0.000000049745687, z: -0.0000002947984, w: 0.9920638}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer10
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: -28.117258, z: 3.2650654}
+      rotation: {x: 0.796285, y: -0.00000017994482, z: -0.00000013670048, w: 0.60492176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ThdSchPat4
+      parentName: pasted__group3
+      position: {x: -17.038326, y: -5.785702, z: 16.821571}
+      rotation: {x: -0.000000058741005, y: -0.225732, z: 0.97418946, w: -0.000000013611033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Revolve4
+      parentName: pasted__group3
+      position: {x: -12.039599, y: 36.852047, z: -10.3248205}
+      rotation: {x: 0.70149505, y: 0.08890778, z: 0.7014952, w: 0.08890871}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Extrude20
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: 12.211263, z: -3.9768918}
+      rotation: {x: -0.088908285, y: -0.70149505, z: 0.088908195, w: 0.70149505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__CirPattern7
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: -0.9398216, z: -0.58887565}
+      rotation: {x: -0.56305844, y: 0.4277444, z: 0.5630585, w: -0.42774415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ThdSchPat6
+      parentName: pasted__group3
+      position: {x: -17.038326, y: 17.893148, z: -5.4406347}
+      rotation: {x: -0.000000020144272, y: -0.14754151, z: 0.9890559, w: -0.0000000030050034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer11
+      parentName: pasted__group3
+      position: {x: -0.60959995, y: -23.224607, z: 5.152113}
+      rotation: {x: 0.9902273, y: -0.007647532, z: -0.060338605, w: 0.1255021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Thread2
+      parentName: pasted__group3
+      position: {x: 5.9435997, y: 2.9831665, z: -14.683521}
+      rotation: {x: 0.00000012653105, y: 0.99080276, z: 0.13531417, w: 0.00000005757527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer12
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: 9.311292, z: -26.052212}
+      rotation: {x: 0.92202, y: -0.0000002508156, z: 0.000000105313646, w: -0.38714218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Extrude18
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: -4.2124214, z: 11.169038}
+      rotation: {x: 0.65196675, y: 0.27375066, z: -0.65196663, w: -0.27375093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Thread3
+      parentName: pasted__group3
+      position: {x: 5.9435997, y: 9.305003, z: 9.855835}
+      rotation: {x: 0.00000002802629, y: 0.37821594, z: 0.9257174, w: 0.00000013239253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__CirPattern8
+      parentName: pasted__group3
+      position: {x: 22.210474, y: -0.9398216, z: -0.58887565}
+      rotation: {x: -0.56305844, y: 0.4277444, z: 0.5630585, w: -0.42774415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Chamfer13
+      parentName: pasted__group3
+      position: {x: 7.7723994, y: 3.438534, z: -27.686783}
+      rotation: {x: 0.92202, y: -0.0000002508156, z: 0.000000105313646, w: -0.38714218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Revolve5
+      parentName: pasted__group3
+      position: {x: -12.039599, y: -25.713331, z: -25.845806}
+      rotation: {x: 0.27375057, y: 0.65196645, z: 0.27375102, w: 0.6519668}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Extrude2
+      parentName: pasted__group3
+      position: {x: -5.0291996, y: -0.9398123, z: -0.58887565}
+      rotation: {x: 0.00000008207201, y: 0.9783183, z: -0.20710702, w: -0.000000017374399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Cut-Revolve6
+      parentName: pasted__group3
+      position: {x: -12.039599, y: -11.035307, z: 35.682564}
+      rotation: {x: -0.42774442, y: 0.5630587, z: -0.42774412, w: 0.56305826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ThdSchPat8
+      parentName: pasted__group3
+      position: {x: -17.038326, y: -12.004057, z: -11.869033}
+      rotation: {x: -0.000000044689294, y: -0.06841614, z: 0.9976569, w: 0.00000013040615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder96
+      parentName: group17
+      position: {x: 1.5879401, y: -0.060407937, z: -0.07842596}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.06421205, y: 0.19408172, z: 0.06421205}
+    - name: pCylinder109
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.15928616, y: 0.64641935, z: 0.23696359}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.00088952755, y: 0.06730531, z: 0.00088952755}
+    - name: pCube56
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: -0.773802, y: 0.64473414, z: 0.21451123}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.005739571, y: 0.0041058906, z: 0.008074208}
+    - name: pCylinder110
+      parentName: lathe machine disassembly animation 2(Clone)
+      position: {x: 0.20899281, y: 0.9554274, z: 0.0011022832}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.002613312, y: 0.009225615, z: 0.002613312}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -19,13 +19,25 @@ public class ChangeScene : MonoBehaviour
 
     }
 
-    public void SceneChange()
+    public void SceneChangeFactoryEng()
     {
-        SceneManager.LoadScene("Factory");
+        SceneManager.LoadScene("Factory English");
+    }
+    public void SceneChangeFactoryHindi()
+    {
+        SceneManager.LoadScene("Factory Hindi");
     }
     public void SceneChangeToMainMenu()
     {
         SceneManager.LoadScene("Welcome");
+    }
+    public void SceneChangeToExploreEng()
+    {
+        SceneManager.LoadScene("explore english");
+    }
+    public void SceneChangeToExploreHindi()
+    {
+        SceneManager.LoadScene("explore hindi");
     }
 
 }
