@@ -39,5 +39,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("explore hindi");
     }
+    public void SceneChangeTocnc()
+    {
+        SceneManager.LoadScene("cnc");
+    }
 
 }

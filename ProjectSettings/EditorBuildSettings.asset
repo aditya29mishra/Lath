@@ -6,20 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Welcome.unity
+    path: Assets/Scenes/lathe/Welcome.unity
     guid: 132d83af9f43cec48a4b4cfa95f05f42
   - enabled: 1
-    path: Assets/Scenes/Factory English.unity
+    path: Assets/Scenes/lathe/Factory English.unity
     guid: a2b82f9b42dc94649af23834ab3fc0a8
   - enabled: 1
-    path: Assets/Scenes/Factory Hindi.unity
+    path: Assets/Scenes/lathe/Factory Hindi.unity
     guid: d43c434327e559d45a5fb8f2f0ed3a87
   - enabled: 1
-    path: Assets/Scenes/explore english.unity
+    path: Assets/Scenes/lathe/explore english.unity
     guid: 565a0ff8cae9427448b8363445107b07
   - enabled: 1
-    path: Assets/Scenes/explore hindi.unity
+    path: Assets/Scenes/lathe/explore hindi.unity
     guid: 21e9851d399e8ec439c5194f2f1c185d
+  - enabled: 1
+    path: Assets/Scenes/cnc/cnc.unity
+    guid: 0d2c8df3871928b49bedd324ae78854d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 84ce42259934cca4fb1531d2d8449bfc,
       type: 2}
